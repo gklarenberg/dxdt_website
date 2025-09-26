@@ -1,0 +1,7 @@
+---
+title: "Our Work"
+---
+
+## Projects
+- Time series dashboards for water quality
+- Interactive reports in R and Quarto

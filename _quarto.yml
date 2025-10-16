@@ -2,26 +2,34 @@ project:
   type: website
 
 website:
-  title: "dxdt Scientific"
+  sidebar:
+    logo: images/dxdt_twins_logo_only.png
+    style: "docked"
   navbar:
     background: primary
-    left:
+    search: false
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About Us
+        text: About
       - href: work.qmd
         text: Our Work
+      - text: Services
+        menu:
+          - text: Data Dashboards
+            href: dashboards.qmd
+          - text: Environmental Modeling
+            href: modeling.qmd
       - href: contact.qmd
         text: Contact Us
 
 format:
   html:
     theme:
-      - cosmo
+      - flatly
       - brand
     css: styles.css
-    toc: true
 
 editor: visual
 

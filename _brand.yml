@@ -1,0 +1,9 @@
+defaults:
+  bootstrap:
+    defaults: # defaults also supports a string as its value
+      link-decoration: underline
+      navbar-fg: "#fff"
+
+logo: 
+  small: images/dxdt_name.png
+  

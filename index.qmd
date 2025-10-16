@@ -1,10 +1,16 @@
 ---
-title: "Welcome"
+project:
+  type: website
+
+website:
+  title: "dxdt Scientific"
+  description: "Data science for environmental change and dynamics"
+  #favicon: img/banner.jpg
+
 ---
 
 # Welcome to dxdt Scientific
 
-![Our logo](/images/dxdt_twins.png){width=300px align=right}
 
 We specialize in environmental data, change detection, and data dashboards.  
 Our mission is to help organizations track and understand change over time.

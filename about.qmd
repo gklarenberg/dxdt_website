@@ -1,6 +1,6 @@
 ---
-title: "About Us"
+title: "About"
 ---
 
 ## Who We Are
-dxdt Scientific focuses on environmental change, hydrology, and forestry data.
+dxdt Scientific focuses on the science of change, with specific expertise in environmental, hydrology, and forestry data.

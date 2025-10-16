@@ -2,23 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome to dxdt Scientific",
     "section": "",
-    "text": "Welcome to dxdt Scientific\n\n\n\nOur logo\n\n\nWe specialize in environmental data, change detection, and data dashboards.\nOur mission is to help organizations track and understand change over time."
+    "text": "Welcome to dxdt Scientific\nWe specialize in environmental data, change detection, and data dashboards.\nOur mission is to help organizations track and understand change over time."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Us",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
     "section": "",
-    "text": "dxdt Scientific focuses on environmental change, hydrology, and forestry data."
-  },
-  {
-    "objectID": "about.html#who-we-are",
-    "href": "about.html#who-we-are",
-    "title": "About Us",
-    "section": "",
-    "text": "dxdt Scientific focuses on environmental change, hydrology, and forestry data."
+    "text": "Email: info@dxdt-scientific.com\nWebsite: dxdt-scientific.com"
   },
   {
     "objectID": "work.html",
@@ -35,10 +28,17 @@
     "text": "Time series dashboards for water quality\nInteractive reports in R and Quarto"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Email: info@dxdt-scientific.com\nWebsite: dxdt-scientific.com"
+    "text": "dxdt Scientific focuses on environmental change, hydrology, and forestry data."
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About",
+    "section": "",
+    "text": "dxdt Scientific focuses on environmental change, hydrology, and forestry data."
   }
 ]

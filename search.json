@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "Building data fluency for modern science",
+    "section": "",
+    "text": "Hands-on training in R, Python, visualization, mapping, and reproducible data workflows.\nI provide training and workshops on various data science concepts and tools. These are customized to your specific needs, are interactive, and include “live” data work.\nBased on your needs and available time, I can design training and workshops of various durations: from half-day to multiple-day workshops, and even sessions spread out over multiple weeks.\n\n\n\nData science with environmental data\nBuilding data acumen\nExploratory Data Analysis\n\n\nIntroduction to scientific programming with R and/or Python\nGeneral introduction to scientific programming concepts and tools\n\n\nIntroduction to data science with R and/or Python\nFocus on specific tools and packages for data science\nCustomization around packages for environmental data (hydrology, forestry, geospatial)\n\n\nAdvanced R programming: creating workflows\nAutomation with functions and Quarto document creation\n\n\nVisualizations for data story telling (with R)\n\n\nMaking maps with R (geospatial topics)\n\n\nVersion control tools (Git, GitHub, GitLab)\nAnd many more data science topics!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Helping organizations track and understand change over time.\n\n\ndx/dt is the scientific notation for “change over time”: the amount of change in variable x over time t.\n\n\nEnvironmental data science\nChange detection\nData dashboards\nModeling"
+  },
+  {
+    "objectID": "datamanagement.html",
+    "href": "datamanagement.html",
+    "title": "Research Data Management and Systems Design",
+    "section": "",
+    "text": "Advising clients on how to collect, organize, and maintain high-quality scientific data — from field sensors to cloud platforms.\nWe design data systems that make environmental research transparent, reproducible, and future-proof."
+  },
+  {
+    "objectID": "modeling.html",
+    "href": "modeling.html",
+    "title": "Environmental modeling",
+    "section": "",
+    "text": "Under construction"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: geraldine@dxdtscientific.com\nWebsite: dxdtscientific.com"
+  },
+  {
+    "objectID": "work.html#under-construction",
+    "href": "work.html#under-construction",
+    "title": "Our Work",
+    "section": "Under construction",
+    "text": "Under construction\nBuilding tools and providing insights at the intersection of data science and the environment."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Geraldine Klarenberg",
+    "section": "",
+    "text": "dxdt Scientific focuses on the science of change, with specific expertise in environmental, hydrology, and forestry data.\nAt the moment, it’s just me! I have an extensive network of scientists, professionals, and analysts that I collaborate with.\nAnd I look to building a larger team over time!"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Geraldine Klarenberg",
+    "section": "Education",
+    "text": "Education\nPhD in Agricultural & Biological Engineering\nincluding a certificate in Biological Systems Modeling\nUniversity of Florida | Gainesville, FL\nBSc + MSc in International Land and Water Management\nWageningen University | Wageningen, The Netherlands"
+  },
+  {
+    "objectID": "dashboards.html",
+    "href": "dashboards.html",
+    "title": "Data Dashboards",
+    "section": "",
+    "text": "Under construction"
+  }
+]

@@ -1,6 +1,12 @@
 ---
-  title: "Contact Us"
+  title: "Contact"
 ---
-  
-Email: info@dxdt-scientific.com  
-Website: [dxdt-scientific.com](https://dxdt-scientific.com)
+
+::: banner-container
+<img src="images/FloridaLake.jpg" alt="Landscape banner" class="banner-img"/>
+:::
+
+::: {.container .text-center .mx-auto style="max-width: 800px;"}
+Email: geraldine\@dxdtscientific.com\
+Website: [dxdtscientific.com](https://dxdtscientific.com)
+:::

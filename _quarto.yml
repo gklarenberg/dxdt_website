@@ -11,19 +11,30 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: work.qmd
-        text: Our Work
+      - text: About
+        menu:
+          - href: about.qmd
+            text: People
+          - href: work.qmd
+            text: Our Work
       - text: Services
         menu:
+          - text: Training and Workshops
+            href: training.qmd
+          - text: Data Management and Systems Design
+            href: datamanagement.qmd
           - text: Data Dashboards
             href: dashboards.qmd
           - text: Environmental Modeling
             href: modeling.qmd
       - href: contact.qmd
-        text: Contact Us
-
+        text: Contact
+  page-footer:
+    border: true
+    left: "&#169; 2025 Geraldine Klarenberg"
+    center: "<img src='images/plants.jpg' style='height:40px; width:800px; object-fit:cover;'>"
+    right: "made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)"
+    
 format:
   html:
     theme:

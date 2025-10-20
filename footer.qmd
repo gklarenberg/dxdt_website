@@ -1,0 +1,3 @@
+<div class="footer-banner">
+  <img src="images/plants.jpg" alt="Footer banner" class="footer-img">
+</div>

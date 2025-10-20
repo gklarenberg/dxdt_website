@@ -1,3 +1,13 @@
 ---
 title: "Environmental modeling"
 ---
+
+<div class="banner-container">
+  <img src="images/Spring2.png" alt="Landscape banner" class="banner-img">
+</div>
+
+::: {.container .text-center .mx-auto style="max-width: 800px;"}
+
+Under construction
+
+:::

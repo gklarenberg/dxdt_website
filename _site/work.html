@@ -38,7 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-765f8510baace5fc9c344d2d8753b1c1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d45dfc9378d78839c397cfe5aadf256e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,19 +93,34 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./work.html"> 
-<span class="menu-text">Our Work</span></a>
+        <li>
+    <a class="dropdown-item" href="./work.html">
+ <span class="dropdown-text">Our Work</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Services</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-services">    
+        <li>
+    <a class="dropdown-item" href="./training.html">
+ <span class="dropdown-text">Training and Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./datamanagement.html">
+ <span class="dropdown-text">Data Management and Systems Design</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="./dashboards.html">
  <span class="dropdown-text">Data Dashboards</span></a>
@@ -116,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact Us</span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -170,15 +187,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<ul>
-<li>Time series dashboards for water quality</li>
-<li>Interactive reports in R and Quarto</li>
-</ul>
-
-
+<div class="banner-container">
+<p><img src="images/alaska_sunset2.png" alt="Landscape banner" class="banner-img"></p>
+</div>
+<section id="under-construction" class="level2 container text-center mx-auto" style="max-width: 800px;">
+<h2 class="anchored" data-anchor-id="under-construction"><strong>Under construction</strong></h2>
+<p>Building tools and providing insights at the intersection of data science and the environment.</p>
 </section>
+<div class="container mt-5">
+<div class="row justify-content-center">
+<!-- Card 1 -->
+<div class="card bg-light mb-3">
+<div class="card-header text-center fw-bold">
+<i class="fa-solid fa-briefcase" aria-label="briefcase"></i> Projects
+</div>
+<div class="card-body text-center">
+<p class="card-text">
+Applied research and analytics for environmental and ecological systems.
+</p>
+<p><a class="btn btn-primary">Environmental data dashboards </a> <a href="https://rpubs.com/gklarenberg/1212158" class="btn btn-primary" target="_blank"> Reports in R and Quarto </a></p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="card bg-light mb-3">
+<div class="card-header text-center fw-bold">
+<i class="fa-solid fa-code" aria-label="code"></i> Repositories
+</div>
+<div class="card-body text-center">
+<p class="card-text">
+Open-source tools and reproducible workflows for scientific computing.
+</p>
+<p><a class="btn btn-primary"> <i class="fa-brands fa-square-github" aria-label="square-github"></i> GitHub</a> <a class="btn btn-primary"> <i class="fa-brands fa-square-gitlab" aria-label="square-gitlab"></i> GitLab</a> <a class="btn btn-primary"> figshare</a></p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="card bg-light mb-3">
+<div class="card-header text-center fw-bold">
+<i class="fa-solid fa-book" aria-label="book"></i> Publications
+</div>
+<div class="card-body text-center">
+<p class="card-text">
+Peer-reviewed research bridging data, ecology, and decision-making.
+</p>
+<p><a class="btn btn-primary">Explore</a></p>
+</div>
+</div>
+</div>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -599,6 +656,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Geraldine Klarenberg</p>
+</div>   
+    <div class="nav-footer-center">
+<p><img src="images/plants.jpg" style="height:40px; width:800px; object-fit:cover;"></p>
+</div>
+    <div class="nav-footer-right">
+<p>made with <i class="fa-solid fa-heart" title="love" aria-label="heart"></i> &amp; <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

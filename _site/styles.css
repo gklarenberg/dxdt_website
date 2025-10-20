@@ -1,15 +1,74 @@
 /* css styles */
 
-/* Make navbar logo larger and maintain aspect ratio */
-.navbar-brand img {
-  height: 100px !important;
-  width: auto !important;
+/* photo banner before title */
+.banner-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em; /* space below image before title */
 }
 
+.banner-img {
+  width: 100%;
+  max-height: 250px; /* adjust height as desired */
+  object-fit: cover;
+  border-radius: 8px; /* optional */
+}
+
+/* bottom banner */
+/* Add a site-wide footer banner image -> changed to settings in _quarto.yml */
+.footer-banner {
+  width: 100%;
+  text-align: center;
+  /* margin-top: 2em; */
+}
+
+.footer-banner .footer-img {
+  width: 100%;
+  max-height: 200px; /* adjust as needed */
+  object-fit: cover;
+}
+
+/* Optional: center the title below the banner */
+.quarto-title-block {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Make navbar logo larger and maintain aspect ratio */
 .navbar-logo {
     max-height: 55px;
     max-width: auto;
     height: 50px;
     width: auto;
     margin-top: -9px;
+}
+
+/* Center all page titles */
+.quarto-title h1,
+.quarto-title-block h1,
+.quarto-title .title {
+  text-align: center;
+}
+
+/* Styling for cards */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.btn-primary:hover {
+  background-color: #1a252f;
+  border-color: #1a252f;
 }

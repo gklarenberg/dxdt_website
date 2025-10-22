@@ -1,12 +1,12 @@
 project:
   type: website
-
-website:
   output-dir: _site
   render:
     - "*.qmd"
   publish:
     gh-pages: true
+
+website:
   sidebar:
     logo: images/dxdt_twins_logo_only.png
     style: "docked"

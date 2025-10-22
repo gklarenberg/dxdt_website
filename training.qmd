@@ -2,34 +2,35 @@
 title: "Building data fluency for modern science"
 ---
 
-<div class="banner-container">
-  <img src="images/Blue_Spring.jpg" alt="Landscape banner" class="banner-img">
-</div>
+::: banner-container
+<img src="images/Blue_Spring.jpg" alt="Landscape banner" class="banner-img"/>
+:::
 
 ::: {.container .text-center .mx-auto style="max-width: 800px;"}
-
 *Hands-on training in R, Python, visualization, mapping, and reproducible data workflows.*
 
-I provide training and workshops on various data science concepts and tools. These are customized to your specific needs, are interactive, and include "live" data work. 
+I provide training and workshops on various data science concepts and tools. These are customized to your specific needs, are interactive, and include "live" data work.
 
 Based on your needs and available time, I can design training and workshops of various durations: from half-day to multiple-day workshops, and even sessions spread out over multiple weeks.
-
 :::
 
 ::: {.section .text-center style="background-color: #eaf3ff; padding: 30px 0;"}
-
 #### Data science with environmental data
-Building data acumen  
+
+Building data acumen\
 Exploratory Data Analysis
-  
+
 #### Introduction to scientific programming with R and/or Python
+
 General introduction to scientific programming concepts and tools
-  
+
 #### Introduction to data science with R and/or Python
-Focus on specific tools and packages for data science  
+
+Focus on specific tools and packages for data science\
 Customization around packages for environmental data (hydrology, forestry, geospatial)
-  
+
 #### Advanced R programming: creating workflows
+
 Automation with functions and Quarto document creation
 
 #### Visualizations for data story telling (with R)
@@ -37,11 +38,6 @@ Automation with functions and Quarto document creation
 #### Making maps with R (geospatial topics)
 
 #### Version control tools (Git, GitHub, GitLab)
-  
-  
+
 *And many more data science topics!*
-
 :::
-
-
-    

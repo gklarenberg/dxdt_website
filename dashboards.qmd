@@ -2,12 +2,10 @@
 title: "Data Dashboards"
 ---
 
-<div class="banner-container">
-  <img src="images/PaynesPrairie.jpg" alt="Landscape banner" class="banner-img">
-</div>
+::: banner-container
+<img src="images/PaynesPrairie.jpg" alt="Landscape banner" class="banner-img"/>
+:::
 
 ::: {.container .text-center .mx-auto style="max-width: 800px;"}
-
 Under construction
-
 :::

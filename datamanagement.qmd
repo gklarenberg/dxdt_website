@@ -2,14 +2,12 @@
 title: "Research Data Management and Systems Design"
 ---
 
-<div class="banner-container">
-  <img src="images/sweetwater_tree.png" alt="Landscape banner" class="banner-img">
-</div>
+::: banner-container
+<img src="images/sweetwater_tree.jpg" alt="Landscape banner" class="banner-img"/>
+:::
 
 ::: {.container .text-center .mx-auto style="max-width: 800px;"}
-
 *Advising clients on how to collect, organize, and maintain high-quality scientific data — from field sensors to cloud platforms.*
 
 We design data systems that make environmental research transparent, reproducible, and future-proof.
-
 :::

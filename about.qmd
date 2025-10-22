@@ -20,13 +20,12 @@ execute:
   freeze: true
 ---
 
-<div class="banner-container">
-  <img src="images/waterfall.jpg" alt="Landscape banner" class="banner-img">
-</div>
+::: banner-container
+<img src="images/waterfall.jpg" alt="Landscape banner" class="banner-img"/>
+:::
 
-:::{#hero-heading}
-
-Geraldine has 14 years of experience with scientific programming in R and Python. She specializes in simulations, statistics, visualizations, data management, data organization and cleaning. She loves creating dashboards and reports for a variety of audiences.  
+::: {#hero-heading}
+Geraldine has 14 years of experience with scientific programming in R and Python. She specializes in simulations, statistics, visualizations, data management, data organization and cleaning. She loves creating dashboards and reports for a variety of audiences.\
 She has almost 25 years of experience working in the natural resources sector, including with non-profits, government, and academia.
 
 She has spent 6 years formally teaching in an academic setting at the University of Florida, but has also spent many years before that organizing and running stakeholder workshops and meetings, teaching programming workshops and providing online data science mentoring.
@@ -35,25 +34,15 @@ Geraldine is fascinated with the science of change: time series analyses, stable
 
 ## Education
 
-**PhD in Agricultural & Biological Engineering**  
-*including a certificate in Biological Systems Modeling*  
-University of Florida | Gainesville, FL 
+**PhD in Agricultural & Biological Engineering**\
+*including a certificate in Biological Systems Modeling*\
+University of Florida \| Gainesville, FL
 
-**BSc + MSc in International Land and Water Management**  
-Wageningen University | Wageningen, The Netherlands
-
+**BSc + MSc in International Land and Water Management**\
+Wageningen University \| Wageningen, The Netherlands
 :::
 
 **dxdt Scientific** focuses on the science of change, with specific expertise in environmental, hydrology, and forestry data.
 
-At the moment, it's just me! I have an extensive network of scientists, professionals, and analysts that I collaborate with.  
+At the moment, it's just me! I have an extensive network of scientists, professionals, and analysts that I collaborate with.\
 And I look to building a larger team over time!
-
-
-
-
-
-
-
-
-

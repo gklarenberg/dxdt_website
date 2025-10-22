@@ -2,52 +2,70 @@
 title: "Our Work"
 ---
 
-<div class="banner-container">
-  <img src="images/alaska_sunset2.png" alt="Landscape banner" class="banner-img">
-</div>
+::: banner-container
+<img src="images/alaska_sunset2.jpg" alt="Landscape banner" class="banner-img"/>
+:::
 
 ::: {.container .text-center .mx-auto style="max-width: 800px;"}
-
 ## **Under construction**
 
 Building tools and providing insights at the intersection of data science and the environment.
 :::
 
-<div class="container mt-5">
-<div class="row justify-content-center">
-
+::::::::::::: {.container .mt-5}
+:::::::::::: {.row .justify-content-center}
 <!-- Card 1 -->
-<div class="card bg-light mb-3">
-<div class="card-header text-center fw-bold"> {{< fa briefcase >}}   Projects</div>
-<div class="card-body text-center">
-<p class="card-text">Applied research and analytics for environmental and ecological systems.</p>
-<a class="btn btn-primary">Environmental data dashboards </a>
-<a href="https://rpubs.com/gklarenberg/1212158" class="btn btn-primary" target="_blank">
-Reports in R and Quarto  </a>
-</div>
-</div>
+
+::::: {.card .bg-light .mb-3}
+::: {.card-header .text-center .fw-bold}
+{{< fa briefcase >}} Projects
+:::
+
+::: {.card-body .text-center}
+<p class="card-text">
+
+Applied research and analytics for environmental and ecological systems.
+
+</p>
+
+<a class="btn btn-primary">Environmental data dashboards </a> <a href="https://rpubs.com/gklarenberg/1212158" class="btn btn-primary" target="_blank"> Reports in R and Quarto </a>
+:::
+:::::
 
 <!-- Card 2 -->
-<div class="card bg-light mb-3">
-<div class="card-header text-center fw-bold"> {{< fa code >}}   Repositories</div>
-<div class="card-body text-center">
-<p class="card-text">Open-source tools and reproducible workflows for scientific computing.</p>
-<a  class="btn btn-primary"> {{< fa brands square-github >}} GitHub</a>
-<a  class="btn btn-primary"> {{< fa brands square-gitlab >}} GitLab</a>
-<a  class="btn btn-primary"> figshare</a>
-</div>
-</div>
+
+::::: {.card .bg-light .mb-3}
+::: {.card-header .text-center .fw-bold}
+{{< fa code >}} Repositories
+:::
+
+::: {.card-body .text-center}
+<p class="card-text">
+
+Open-source tools and reproducible workflows for scientific computing.
+
+</p>
+
+<a  class="btn btn-primary"> {{< fa brands square-github >}} GitHub</a> <a  class="btn btn-primary"> {{< fa brands square-gitlab >}} GitLab</a> <a  class="btn btn-primary"> figshare</a>
+:::
+:::::
 
 <!-- Card 3 -->
-<div class="card bg-light mb-3">
-<div class="card-header text-center fw-bold"> {{< fa book >}}   Publications</div>
-<div class="card-body text-center">
-<p class="card-text">Peer-reviewed research bridging data, ecology, and decision-making.</p>
+
+::::: {.card .bg-light .mb-3}
+::: {.card-header .text-center .fw-bold}
+{{< fa book >}} Publications
+:::
+
+::: {.card-body .text-center}
+<p class="card-text">
+
+Peer-reviewed research bridging data, ecology, and decision-making.
+
+</p>
+
 <a  class="btn btn-primary">Explore</a>
-</div>
-</div>
-
-</div>
-</div>
-
-
+:::
+:::::
+::::::::::::
+:::::::::::::

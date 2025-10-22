@@ -9,27 +9,18 @@ website:
 ---
 
 ::: banner-container
-<img src="images/alaska_lake3_effect2.png" alt="Landscape banner" class="banner-img"/>
+<img src="images/alaska_lake3_effect2.jpg" alt="Landscape banner" class="banner-img"/>
 :::
 
-
-
 ::: {.section .text-center style="background-color: #2c3e50; color: white; padding: 30px 0; font-size: 1.5rem; font-weight: bold;"}
-
 Helping organizations track and understand change over time.
-
 :::
 
 ::: {.container .text-center .mx-auto style="max-width: 800px; padding: 30px 0;"}
-
-
 `dx/dt` is the scientific notation for "change over time": the amount of change in variable `x` over time `t`.
-
-
 :::
 
 ::: {.section .text-center style="background-color: #2c3e50; color: white; padding: 30px 0; font-size: 1.5rem; font-weight: bold;"}
-
 Environmental data science
 
 Change detection
@@ -37,6 +28,4 @@ Change detection
 Data dashboards
 
 Modeling
-
 :::
-

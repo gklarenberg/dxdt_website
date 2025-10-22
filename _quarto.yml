@@ -1,10 +1,6 @@
 project:
   type: website
-  output-dir: _site
-  render:
-    - "*.qmd"
-  publish:
-    gh-pages: true
+  output-dir: docs
 
 website:
   sidebar:

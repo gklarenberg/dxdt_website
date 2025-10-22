@@ -2,6 +2,11 @@ project:
   type: website
 
 website:
+  output-dir: _site
+  render:
+    - "*.qmd"
+  publish:
+    gh-pages: true
   sidebar:
     logo: images/dxdt_twins_logo_only.png
     style: "docked"
@@ -42,5 +47,5 @@ format:
       - brand
     css: styles.css
 
-editor: visual
+editor: source
 
